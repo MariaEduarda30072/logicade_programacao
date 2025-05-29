@@ -1,0 +1,75 @@
+desafio 3 
+
+Swith case e if else
+
+let comando = prompt(&quot;digite o programa desejado: &quot;)
+if(comando == &quot;Linux&quot;){
+console.log (&quot;mkdir,ls,cd,cd..,rm,clear,cp,mv,cat,echo&quot;)
+let comando= prompt(&quot;digite o comando desejado&quot;)
+switch (comando){
+case &quot;Ls&quot;:
+console.log(&quot;para aparecer a pastas presentes no seu
+usiario&quot;);
+break
+case &quot;mkdir&quot;:
+console.log(&quot;para criar um novo diretorio(pasta)&quot;);
+break
+case &quot;cd&quot;:
+console.log(&quot;para mostrar a execução que foi feita
+anteriormente&quot;);
+break
+case &quot;cd ..&quot;:
+console.log(&quot;serve para voltar para a pasta acessada
+anteriormente&quot;);
+break
+case &quot;rm&quot;:
+
+console.log(&quot;serve para remover os arquivos e
+diretotio&quot;);
+break
+case &quot;clear&quot;:
+console.log(&quot;é usado para limpar os comando
+executados anteriormente&quot;);
+break
+case &quot;cp&quot;:
+console.log(&quot;copiar um arquivo&quot;);
+break
+case &quot;mv&quot;:
+console.log(&quot;para mover um arquivo&quot;);
+break
+case &quot;cat&quot;:
+console.log(&quot;para mostrar o texto escrito dentro do
+arquivo&quot;);
+break
+case &quot;echo&quot;:
+console.log(&quot;serve para criar um arquivo dentro da
+pasta&quot;);
+break
+}
+}
+else if (comando == &quot;CMD&quot;){
+
+console.log
+(&quot;mkdir,dir,cd,cd..,del,cls,echo,copy,move,rmdir,exit&quot;)
+let comando= prompt(&quot;digite o comando desejado: &quot;)
+switch (comando){
+case &quot;Dir&quot;:
+console.log(&quot;para aparecer a pastas presentes no seu
+usuario&quot;);
+break
+case &quot;mkdir&quot;:
+console.log(&quot;para criar um novo diretorio(pasta)&quot;);
+break
+case &quot;cd&quot;:
+console.log(&quot;para mostrar a execução que foi feita
+anteriormente&quot;);
+break
+case &quot;cd ..&quot;:
+console.log(&quot;serve para voltar para a pasta acessada
+anteriormente&quot;);
+break
+case &quot;del&quot;:
+console.log(&quot;serve para excluir os arquivos do
+diretotio&quot;);
+break
+case &quot;cls&quot;:
